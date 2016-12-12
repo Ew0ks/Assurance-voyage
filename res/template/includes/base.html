@@ -6,10 +6,15 @@
     <title>{% block title %}{% endblock %}</title>
     <meta name="description" content="{% block description %}{% endblock %}">
     {% block style %}
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     {% endblock %}
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 <body>
-    {{'Hello World'}}
+{% block body %}
+
+{% endblock %}
+<script src="script.js"></script>
 </body>
 </html>

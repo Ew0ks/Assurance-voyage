@@ -16,12 +16,10 @@
     "require-dir": "^0.3.0"
   },
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "dev": "lite-server"
   },
   "devDependencies": {
     "lite-server": "^2.2.2"
-  },
-  "scripts": {
-    "dev": "lite-server"
   }
 }
